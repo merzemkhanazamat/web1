@@ -13,25 +13,25 @@ Build a simple personal webpage using HTML and CSS. The page includes headings, 
 
 Created index.html with the basic HTML structure. Added h1, h2, h3 headings and a paragraph about myself.
 
-![alt text](image.png)
+![alt text](images/image.png)
 
 ### Step 2. Lists
 
 Added an ordered list of my hobbies and an unordered list of my favorite websites.
 
-![alt text](image-1.png)
+![alt text](images/image-1.png)
 
 ### Step 3. Images and links
 
 Added my photo with the img tag and links to GitHub and LMS.
 
-![alt text](image-2.png)
+![alt text](images/image-2.png)
 
 ### Step 4. Button
 
 Added a "Click Me" button.
 
-![alt text](image-3.png)
+![alt text](images/image-3.png)
 
 ## Part 2. Intermediate HTML
 
@@ -39,25 +39,25 @@ Added a "Click Me" button.
 
 Created a table with my weekly schedule (Subject, Day, Time).
 
-![alt text](image-4.png)
+![alt text](images/image-4.png)
 
 ### Step 6. Layout table
 
 Created a two-column table: menu on the left, main content on the right.
 
-![alt text](image-5.png)
+![alt text](images/image-5.png)
 
 ### Step 7. Emojis
 
 Added a paragraph with emojis about my mood.
 
-![alt text](image-6.png)
+![alt text](images/image-6.png)
 
 ### Step 8. Form
 
 Created a form with Name, Email, Favorite Color, and a Submit button.
 
-![alt text](image-7.png)
+![alt text](images/image-7.png)
 
 ## Part 3. Introduction to CSS
 
@@ -72,13 +72,13 @@ Added a style block in the head to set the font family.
 ### Step 12. External CSS
 
 Created styles.css and linked it to the HTML file.
-![alt text](image-8.png)
+![alt text](images/image-8.png)
 
 ### Step 13-14. Selectors, classes and IDs
 
 Used a p selector, a .highlight class, and an #main-heading ID with different colors and fonts.
 
-![alt text](image-9.png)
+![alt text](images/image-9.png)
 
 ## Part 4. Intermediate CSS
 
@@ -90,31 +90,31 @@ Added a favicon link in the head.
 
 Grouped the page into header, main-content, and footer sections using divs.
 
-![alt text](image-10.png)
+![alt text](images/image-10.png)
 
 ### Step 17. Box model
 
 Added a box with border, padding, and margin.
 
-![alt text](image-11.png)
+![alt text](images/image-11.png)
 
 ### Step 18. Positioning
 
 Added three boxes: static, relative, and absolute.
 
-![alt text](image-12.png)
+![alt text](images/image-12.png)
 
 ### Step 19. Sizing
 
 Styled headings using px, %, em, and rem units.
 
-![alt text](image-13.png)
+![alt text](images/image-13.png)
 
 ### Step 20. Float and clear
 
 Created two floated boxes (left and right) and used clear to fix the layout.
 
-![alt text](image-14.png)
+![alt text](images/image-14.png)
 
 ### Step 21. Publish website
 
