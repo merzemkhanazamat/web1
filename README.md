@@ -1,78 +1,134 @@
-# Assignment 1: HTML & CSS Basics
+# Assignment 1 - Web Technologies-1 (Front End)
 
-**Name:** Azamat Merzemkhan  
-**Group:** [IT-2513]  
-**Course:** Web Technologies-1 (Frontend)  
-**Instructor:** Gulfiya Usserbayeva  
+Name: Azamat
+Group: IT-2313 / IT-2513
 
----
+## Objective
 
-## Project Overview
-This repository contains my first practical assignment for the Web Technologies course. The goal of this project is to learn the basics of HTML, create structured web pages, use essentxial tags (headings, lists, tables, forms), and publish the website online using GitHub Pages.
+Build a simple personal webpage using HTML and CSS. The page includes headings, text, lists, images, links, a table, a form, and CSS styling (inline, internal, external, selectors, box model, positioning, sizing, float).
 
----
+## Part 1. Introduction to HTML
 
-## Completed Tasks & Screenshots
+### Step 0-1. HTML boilerplate and text structure
 
-### Step 0 & 1: Basic Structure, Headings & Paragraph
-- Created the standard HTML boilerplate (`<!DOCTYPE html>`, `<html>`, `<head>`, `<body>`).
-- Added page title: "My First Webpage".
-- Used headings from `<h1>` to `<h3>` and added an "About Me" paragraph.
+Created index.html with the basic HTML structure. Added h1, h2, h3 headings and a paragraph about myself.
 
-![alt text](images/image.png)
+![alt text](image.png)
 
----
+### Step 2. Lists
 
-### Step 2: Lists
-- Created an ordered list (`<ol>`) for my hobbies.
-- Created an unordered list (`<ul>`) with links to my favorite websites.
+Added an ordered list of my hobbies and an unordered list of my favorite websites.
 
-![alt text](images/image-1.png)
+![alt text](image-1.png)
 
----
+### Step 3. Images and links
 
-### Step 3 & 4: Images, Links & Buttons
-- Added my personal photo using the `<img>` tag.
-- Added working hyperlinks using `<a>` tags (DU LMS and GitHub).
-- Added a simple interactive button using `<button>`.
+Added my photo with the img tag and links to GitHub and LMS.
 
-![alt text](images/image-2.png)
+![alt text](image-2.png)
 
----
+### Step 4. Button
 
-### Step 5: Tables (Class Schedule)
-- Created a weekly class schedule table with 3 columns: "Subject", "Day", and "Time".
-- Structured the table using `<thead>`, `<tbody>`, `<tr>`, `<th>`, and `<td>` tags.
+Added a "Click Me" button.
 
-![alt text](images/image-3.png)
+![alt text](image-3.png)
 
----
+## Part 2. Intermediate HTML
 
-### Step 6: Using Tables for Layout
-- Created a two-column page layout using an HTML `<table>`.
-- Left column (25% width) contains the navigation menu.
-- Right column (75% width) displays the main page content.
+### Step 5. Table
 
-![alt text](images/image-4.png)
+Created a table with my weekly schedule (Subject, Day, Time).
 
----
+![alt text](image-4.png)
 
-### Step 7: Typing Emojis
-- Wrote a paragraph describing my mood today with 3 emojis (🚀, 😎, 🔥).
+### Step 6. Layout table
 
-![alt text](images/image-5.png)
+Created a two-column table: menu on the left, main content on the right.
 
----
+![alt text](image-5.png)
 
-### Step 8: HTML Forms
-- Created a contact form with:
-  - Name field (`type="text"`)
-  - Email field (`type="email"`)
-  - Color picker field (`type="color"`)
-  - Submit button (`type="submit"`)
+### Step 7. Emojis
 
-![alt text](images/image-6.png)
+Added a paragraph with emojis about my mood.
+
+![alt text](image-6.png)
+
+### Step 8. Form
+
+Created a form with Name, Email, Favorite Color, and a Submit button.
+
+![alt text](image-7.png)
+
+## Part 3. Introduction to CSS
+
+### Step 9-10. Inline CSS
+
+Used inline style on the "About Me" paragraph to change the text color.
+
+### Step 11. Internal CSS
+
+Added a style block in the head to set the font family.
+
+### Step 12. External CSS
+
+Created styles.css and linked it to the HTML file.
+![alt text](image-8.png)
+
+### Step 13-14. Selectors, classes and IDs
+
+Used a p selector, a .highlight class, and an #main-heading ID with different colors and fonts.
+
+![alt text](image-9.png)
+
+## Part 4. Intermediate CSS
+
+### Step 15. Favicon
+
+Added a favicon link in the head.
+
+### Step 16. Divs
+
+Grouped the page into header, main-content, and footer sections using divs.
+
+![alt text](image-10.png)
+
+### Step 17. Box model
+
+Added a box with border, padding, and margin.
+
+![alt text](image-11.png)
+
+### Step 18. Positioning
+
+Added three boxes: static, relative, and absolute.
+
+![alt text](image-12.png)
+
+### Step 19. Sizing
+
+Styled headings using px, %, em, and rem units.
+
+![alt text](image-13.png)
+
+### Step 20. Float and clear
+
+Created two floated boxes (left and right) and used clear to fix the layout.
+
+![alt text](image-14.png)
+
+### Step 21. Publish website
+
+Published the site on GitHub Pages.
+
+Live link: [\[insert your GitHub Pages link here\]](https://github.com/merzemkhanazamat/web1.git)
 
 
-## Work Process Summary
-During this assignment, I learned how HTML works and how browsers display web elements. I practiced writing clean HTML code from scratch in VS Code, creating text blocks, building structured tables, organizing layouts, and collecting user input through forms. Finally, I learned how to track project files with Git and publish a website using GitHub Pages.
+## Summary
+
+I built the page step by step: first the HTML structure, then the CSS styling. I tested the page in the browser after each part. The hardest part was CSS positioning, but it works correctly now. The project is uploaded to GitHub and published with GitHub Pages.
+
+## Files
+
+- index.html - main page
+- styles.css - external stylesheet
+- images/ - photo and favicon
