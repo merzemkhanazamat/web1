@@ -1,7 +1,7 @@
-# Assignment 1 - Web Technologies-1 (Front End)
+# Assignment 1 - Web Technologies
 
-Name: Azamat
-Group: IT-2313 / IT-2513
+Name: Azamat Merzemkhan
+Group: IT-2513
 
 ## Objective
 
