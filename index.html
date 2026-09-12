@@ -4,13 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My First Webpage</title>
-</head>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/png" href="images/my_photo.jpeg">
+    <style>
+        /* Internal CSS (Step 11) */
+        body {
+            font-family: Arial, sans-serif;
+        }
+        h1 {
+            font-family: Georgia, serif;
+        }
+    </style>
+    </head>
 <body>
-    <h1>My Name is Azamat</h1>
-    <h2>Web 1 frontend and assignment 1, part 1</h2>
-    <h3>About Me</h3>
-    <p>I am 18 years old, and I am from Almaty. Now I am studying at Astana IT University, My major is Computer Science. I want to become a good programmer and work in famous IT companies.</p>
-
+  <div class="header">
+    <h1 id="main-heading">My Name is Azamat</h1>
+    <h2 class="highlight">Web 1 frontend and assignment 1, part 1</h2>
+    <h3 class="highlight">About Me</h3>
+    <p style="color:blue;">I am 18 years old, and I am from Almaty. Now I am studying at Astana IT University, My major is Computer Science. I want to become a good programmer and work in famous IT companies.</p>
+  </div>
+  <div class="main-content">
     <ol>
         <li>Playing football in my free time</li>
         <li>Playing chess and computer games</li>
@@ -68,7 +81,7 @@
         </tr>
     </table><br>
 
-    <p>Today I am feeling great and motivated to write HTML code🚀 😎 🔥</p>
+    <p>Today I am feeling great and motivated to write HTML code🚀💯🎓</p>
 
     <form>
         <label for="name">Name:</label><br> 
@@ -82,5 +95,39 @@
 
         <input type="submit" value="Submit">
     </form>
+
+    <hr>
+
+    <h4>Box model demo</h4>
+    <div class="box-model">Margins,paddings,borders</div><br>
+
+    <hr>
+
+    <h3>Positioning Demo</h3>
+        <div class="static-box">Static position</div>
+        <div class="relative-box">Relative position</div>
+        <div class="absolute-box">Absolute position</div>
+
+        <hr>
+
+        <h3>Sizing Demo (Step 19)</h3>
+        <h4 class="size-px">Heading sized in px</h4>
+        <h4 class="size-percent">Heading sized in %</h4>
+        <h4 class="size-em">Heading sized in em</h4>
+        <h4 class="size-rem">Heading sized in rem</h4>
+
+        <hr>
+
+         <h3>Float and Clear Demo (Step 20)</h3>
+        <div class="float-container">
+            <div class="float-left">Left Box</div>
+            <div class="float-right">Right Box</div>
+            <div class="clear"></div>
+        </div>
+  </div>
+
+  <div class="footer">
+    <p>&copy; 2026 Azamat. Astana IT University.</p>
+  </div>
 </body>
 </html>
