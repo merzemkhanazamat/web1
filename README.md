@@ -120,7 +120,7 @@ Created two floated boxes (left and right) and used clear to fix the layout.
 
 Published the site on GitHub Pages.
 
-Live link: [\[insert your GitHub Pages link here\]](https://github.com/merzemkhanazamat/web1.git)
+Live link: [\[GitHub link\]](https://github.com/merzemkhanazamat/web1.git)
 
 
 ## Summary
